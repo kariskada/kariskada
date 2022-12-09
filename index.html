@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>youtube</title>
+<link rel="stylesheet" href="/html/host1/index1.css">
+<!--font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300&display=swap" rel="stylesheet">
+<!--icons-->
+<script src="https://kit.fontawesome.com/c83766c278.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <section class="header"> 
+        <!--navigation bar-->
+        <nav>
+            <a href="index.html"><img src="/html/host1/used/logo.png"></a>
+            <div class="nav-link" id="navlink" >
+                <i class="fa-solid fa-circle-xmark" onclick="hidemenu()" ></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#courses">COURSES</a></li>
+                    <li><a href="#campus">CAMPUS INFO</a></li>
+                    <li><a href="#facilities">FACILITIES</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()" ></i>
+        </nav>
+        <!--main text in section-->
+        <div class="text-box">
+            <h2 id="home">MACHAKOS UNIVERSITY</h2>
+            <p>study to be excellent</p>
+            <a href="" class="hero-btn">MACHAKOS UNIVERSITY LINK </a>
+        </div>
+
+    </section>
+    <!--course-->
+    <section class="course"  >
+        <!-- <video src="/video/pexels-diva-plavalaguna-6192775.mp4 " autoplay width="100%" loop></video> -->
+        <h1 id="courses">courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, eum corporis id illo debitis dolor esse excepturi minus.</p>
+        <div class="row">
+            <div class="row1">
+                <h3>DIPLOMA</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+            </div>
+            <div class="row2">
+                <h3>DEGREE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at exercitationem rerum necessitatibus reprehenderit commodi corporis nulla cumque similique earum!</p>
+            </div>
+            <div class="row3">
+                <h3>MASTERS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error corporis, perferendis recusandae totam rerum quos nisi quas ipsum facilis, praesentium impedit nostrum provident sapiente sequi, porro numquam eos aspernatur eligendi!</p>
+            </div>
+        </div>
+    </section>
+    <!-- campus info -->
+    <section class="campus">
+        <h1>MACHAKOS UNIVERSITY CAMPUS INFO</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at exercitationem rerum necessitatibus reprehenderit commodi corporis nulla cumque similique earum!</p>
+        <div class="row" id="campus">
+            <div class="column1">
+                <img src="/html/host1/used/london.png">
+                <div class="layer" >
+                    <p>located at:</p>
+                    <h3>KENYA</h3>
+                </div>
+            </div>
+            <div class="column1">
+                <img src="/html/host1/used/washington.png">
+                <div class="layer1" >
+                    <p>found in:</p>
+                    <h3>MACHAKOS</h3>
+                </div>
+            </div>
+            <div class="column1">
+                <img src="/html/host1/used/newyork.png">
+                <div class="layer2" >
+                    <p>situated in:</p>
+                    <h3>MACHAKOS TOWN</h3>
+                </div>
+            </div>        
+        </div>
+    </section>
+    <!-- facilities section  -->
+    <section class="facilities">
+        <h1 id="facilities">MACHAKOS UNIVERSITY FACILITIES</h1>
+        <h4>the school has various facilities eg: libraries,laboratories</h4>
+        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, adipisci? </p>
+        <div class="row">
+            <div class="facilities-column">
+                <img src="/html/host1/used/library.png" >
+                <h3 style="font-size: medium;">this is our library</h3>
+            </div>
+            <div class="facilities-column">
+                <img src="/html/host1/used/cafeteria.png" >
+                <h3 style="font-size: medium;"> this is our mess</h3><br>
+                <p style="font-size: smaller;">we eat at this place</p>
+            </div>  
+            <div class="facilities-column">
+                <img src="/html/host1/used/cafeteria.png" >
+                <h3 style="font-size: medium;">this is our mess</h3><br>
+                <p style="font-size: smaller;">we eat at this place</p>
+            </div>           
+        </div>
+
+    </section>
+    <!-- contact us  -->
+    <section class="footer">
+        <h4 id="contact">contact us on---</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloribus quasi numquam quae dolores sed odit, officiis impedit labore, <br> consequuntur porro nobis ex ut aliquid molestiae. Cumque commodi ratione impedit.</p>
+        <div class="icons">
+            <i class="fa-solid fa-user">made by charles kariuki</i><br><hr>
+            <i class="fa-solid fa-phone">call me at 0721536030</i><br><hr>
+            <i class="fa-solid fa-face-smile">  my rating: </i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+    
+    </section>
+
+    <!----javascript for the menu button---->
+    <script>
+        var navlink = document.getElementById("navlink")
+        function showmenu(){
+            navlink.style.right='0';
+        }
+        function hidemenu(){
+            navlink.style.right  ='-2150px';
+        }
+    </script>
+</body>
+</html>
